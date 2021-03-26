@@ -39,6 +39,8 @@ div span {
     text-transform:capitalize;
     text-align: center;
     text-shadow:1px 1px 0px yellow;
+    background-color:orange;
+    height:40px;
     /* text-indent:-50px; */
     /* letter-spacing:1px; */
     /* word-spacing:50px; */
@@ -95,6 +97,11 @@ body > ol > li {
     background-image:url("../images/prius.jpg");
 }
 
+#home_photo {
+    max-width:450px;
+    width: 100%;
+}
+
 table{
     empty-cells: hide;
     border-spacing:20px 30px;
@@ -107,4 +114,16 @@ table{
 
 #sample_paragraph {
    clear:right;
+}
+
+#website_footer {
+    color:maroon;
+    font-size:20px;
+    font-weight:bold;
+    font-style:normal;
+    text-transform:capitalize;
+    text-align: center;
+    text-shadow:1px 1px 0px yellow;
+    background-color:orange;
+    height:20px;
 }
