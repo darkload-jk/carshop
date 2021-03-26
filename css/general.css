@@ -1,0 +1,110 @@
+/* div {
+    text-decoration: underline;
+    color: green !important;
+} */
+* {
+    font-family:Arial, Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main_link {
+    color:black;
+    background-color:aquamarine;
+    text-decoration: none;
+}
+
+#current_page {
+    background-color: cornflowerblue;
+}
+
+div span {
+    background-color:yellow;
+}
+
+.main_link:hover{
+    background-color:yellow;
+}
+
+#password:active {
+    background:yellow;
+}
+
+.main_link:visited{
+    color:black;
+}
+
+#website_header {
+    color:maroon;
+    font-weight:bold;
+    font-style:normal;
+    text-transform:capitalize;
+    text-align: center;
+    text-shadow:1px 1px 0px yellow;
+    /* text-indent:-50px; */
+    /* letter-spacing:1px; */
+    /* word-spacing:50px; */
+}    
+
+ul > li {
+    list-style-type:square;
+}
+
+body > ol > li {
+    /* list-style-type: lower-roman;
+    list-style-position:inside; */
+    list-style:url("../images/blue_dot.png") circle inside;
+}
+
+.about_us_photo {
+    background-color:rgb(192, 216, 37); 
+    height:150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position:0px 0px;
+    background-attachment: scroll;
+    background-size: 350px 250px;
+    padding: 50px;
+    margin: 50px;
+    border:5px solid red;
+    /* border-radius: 350px; */
+    overflow: hidden;
+    box-sizing: content-box;
+    box-shadow: 20px 20px 4px yellow;
+    display: inline-block;
+    position:relative;
+}
+
+#photo1 {
+    /* background-image:url("../images/Aqua.jpg"); */
+    background: rgb(62,50,168) url("../images/Car_Repairing.jpg") no-repeat 0px 0px;
+    left: 200px;
+    top: 50px;
+    /* position: fixed; */
+    z-index:-1;
+}
+
+#photo2 {
+    background-image:url("../images/Noah.jpg");
+    z-index:-2;
+}
+
+#photo3 {
+    background-image:url("../images/passo.jpg");
+}
+
+#photo4 {
+    background-image:url("../images/prius.jpg");
+}
+
+table{
+    empty-cells: hide;
+    border-spacing:20px 30px;
+    border-collapse:collapse;
+}
+
+#aphoto {
+   float:right;
+}
+
+#sample_paragraph {
+   clear:right;
+}

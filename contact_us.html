@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+<body>
+    <h1 id="website_header">Carshop Company</h1>
+    <h2>Contact Us</h2>
+    <hr>
+    <header>
+        <nav>
+            <a class="main_link" href="index.html">Home</a>
+            <a class="main_link"  href="products.html">Products</a>
+            <a class="main_link" href="about_us.html">About Us</a>
+            <a class="main_link" id="current_page" href="contact_us.html">Contact Us</a>
+        </nav>
+    </header>
+    <br>
+    <form>
+        <label for="firstname">Firstname:</label>
+        <input type="text" name="firstname" id="firstname" placeholder="Firstname">
+        <label for="lastname">Lastname:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Lastname">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password"  id="password" name="password">
+        <br>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday">
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" min="0" max="150">
+        <br>
+        <label for="e-mail">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message">This is the default message.</textarea>
+        <br>
+        <label for="product_of_interest">Product of interest</label>
+        <input type="radio" value="car" id="car" name="product_of_interest">
+        <label for="product_of_interest">Car</label>
+        <input type="radio" value="services" id="services" name="product_of_interest">
+        <label for="services">Services</label>
+        <input type="radio" value="corporate_services" id="corporate_services" name="product_of_interest">
+        <label for="corporate_services">Corporate Services</label>
+        <br>
+        <label for="media_reference">Where did you learn about our company?</label>
+        <input type="checkbox" name="radio" id="radio">
+        <label for="radio">Radio</label>
+        <input type="checkbox" name="television" id="television">
+        <label for="television">Television</label>
+        <input type="checkbox" name="newspaper" id="newspaper">
+        <label for="newspaper">Newspaper</label>        
+        <input type="checkbox" name="social_media" id="social_media">
+        <label for="social_media">Social Media</label>
+        <br>
+        <label for="country_of_origin">Country of origin:</label>
+        <select name="country_of_origin" id="country_of_origin">
+            <option value="albania">Albania</option>
+            <option value="bulgaria">Bulgaria</option>
+            <option value="croatia">Croatia</option>
+            <option value="djibouti">Djibouti</option>
+            <option value="eritrea">Eritrea</option>
+            <option value="france">France</option>
+        </select> 
+        <br>
+        <label for="prefered_countries">Prefered Countries:</label>
+        <select name="country_of_origin" id="prefered_countries" multiple>
+            <option value="albania">Albania</option>
+            <option value="bulgaria">Bulgaria</option>
+            <option value="croatia">Croatia</option>
+            <option value="djibouti">Djibouti</option>
+            <option value="eritrea">Eritrea</option>
+            <option value="france">France</option>
+        </select>
+        <br>
+        <label for="myFile">File: </label>
+        <input type="file" name="myFile" id="myFile">
+        <br>
+        <button type="submit" value="submit">Submit</button>
+        <br>
+        <input type="button" value="Click Me">
+        <br>
+        <input type="image" src="images/blue_dot.png" alt="Blue dot button">
+    </form>
+    <footer>
+        Copyright 2021 Carshop Company
+     </footer>
+</body>
+</html>
